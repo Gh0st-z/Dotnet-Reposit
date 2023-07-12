@@ -29,3 +29,24 @@ D:\Dotnet Reposit\MVC WebApp\MVC WebApp\obj\Debug\net7.0\refint\MVC WebApp.dll
 D:\Dotnet Reposit\MVC WebApp\MVC WebApp\obj\Debug\net7.0\MVC WebApp.pdb
 D:\Dotnet Reposit\MVC WebApp\MVC WebApp\obj\Debug\net7.0\MVC WebApp.genruntimeconfig.cache
 D:\Dotnet Reposit\MVC WebApp\MVC WebApp\obj\Debug\net7.0\ref\MVC WebApp.dll
+D:\Dotnet Reposit\MVC WebApp\MVC WebApp\bin\Debug\net7.0\EntityFramework.SqlServer.dll
+D:\Dotnet Reposit\MVC WebApp\MVC WebApp\bin\Debug\net7.0\EntityFramework.dll
+D:\Dotnet Reposit\MVC WebApp\MVC WebApp\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\Dotnet Reposit\MVC WebApp\MVC WebApp\bin\Debug\net7.0\System.CodeDom.dll
+D:\Dotnet Reposit\MVC WebApp\MVC WebApp\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\Dotnet Reposit\MVC WebApp\MVC WebApp\bin\Debug\net7.0\System.Data.SqlClient.dll
+D:\Dotnet Reposit\MVC WebApp\MVC WebApp\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\Dotnet Reposit\MVC WebApp\MVC WebApp\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\Dotnet Reposit\MVC WebApp\MVC WebApp\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\Dotnet Reposit\MVC WebApp\MVC WebApp\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\Dotnet Reposit\MVC WebApp\MVC WebApp\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Dotnet Reposit\MVC WebApp\MVC WebApp\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+D:\Dotnet Reposit\MVC WebApp\MVC WebApp\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+D:\Dotnet Reposit\MVC WebApp\MVC WebApp\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+D:\Dotnet Reposit\MVC WebApp\MVC WebApp\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Dotnet Reposit\MVC WebApp\MVC WebApp\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Dotnet Reposit\MVC WebApp\MVC WebApp\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Dotnet Reposit\MVC WebApp\MVC WebApp\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Dotnet Reposit\MVC WebApp\MVC WebApp\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Dotnet Reposit\MVC WebApp\MVC WebApp\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Dotnet Reposit\MVC WebApp\MVC WebApp\obj\Debug\net7.0\MVC WebApp.csproj.CopyComplete

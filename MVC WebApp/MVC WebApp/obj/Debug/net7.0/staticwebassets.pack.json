@@ -5,12 +5,20 @@
       "PackagePath": "staticwebassets\\MVC WebApp.bundle.scp.css"
     },
     {
+      "Id": "D:\\Dotnet Reposit\\MVC WebApp\\MVC WebApp\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
       "Id": "D:\\Dotnet Reposit\\MVC WebApp\\MVC WebApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "D:\\Dotnet Reposit\\MVC WebApp\\MVC WebApp\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Dotnet Reposit\\MVC WebApp\\MVC WebApp\\wwwroot\\js\\index.js",
+      "PackagePath": "staticwebassets\\js\\index.js"
     },
     {
       "Id": "D:\\Dotnet Reposit\\MVC WebApp\\MVC WebApp\\wwwroot\\js\\site.js",

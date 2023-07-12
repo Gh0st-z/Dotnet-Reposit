@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZjL7e0RZAB+Vka1P+dGhRes/5pwv82/RX+tPJbWkqC4=",
+  "Hash": "DI4op09aeiMDZ5uyi/WK+GL0nQ62/5g8asJbJjssjTw=",
   "Source": "MVC WebApp",
   "BasePath": "_content/MVC WebApp",
   "Mode": "Default",
@@ -51,6 +51,23 @@
       "OriginalItemSpec": "D:\\Dotnet Reposit\\MVC WebApp\\MVC WebApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\MVC WebApp.bundle.scp.css"
     },
     {
+      "Identity": "D:\\Dotnet Reposit\\MVC WebApp\\MVC WebApp\\wwwroot\\css\\index.css",
+      "SourceId": "MVC WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Dotnet Reposit\\MVC WebApp\\MVC WebApp\\wwwroot\\",
+      "BasePath": "_content/MVC WebApp",
+      "RelativePath": "css/index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\index.css"
+    },
+    {
       "Identity": "D:\\Dotnet Reposit\\MVC WebApp\\MVC WebApp\\wwwroot\\css\\site.css",
       "SourceId": "MVC WebApp",
       "SourceType": "Discovered",
@@ -83,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Dotnet Reposit\\MVC WebApp\\MVC WebApp\\wwwroot\\js\\index.js",
+      "SourceId": "MVC WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Dotnet Reposit\\MVC WebApp\\MVC WebApp\\wwwroot\\",
+      "BasePath": "_content/MVC WebApp",
+      "RelativePath": "js/index.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\index.js"
     },
     {
       "Identity": "D:\\Dotnet Reposit\\MVC WebApp\\MVC WebApp\\wwwroot\\js\\site.js",

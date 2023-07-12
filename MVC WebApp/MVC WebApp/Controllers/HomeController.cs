@@ -13,6 +13,16 @@ namespace MVC_WebApp.Controllers
             _logger = logger;
         }
 
+        public IActionResult SignUp()
+        {
+            return View();
+        }
+
+        public IActionResult Login()
+        {
+            return View();
+        }
+
         public IActionResult Index()
         {
             return View();
