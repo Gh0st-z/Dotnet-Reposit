@@ -6,4 +6,5 @@ namespace MVC_WebApp.Models
 
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
     }
+
 }
