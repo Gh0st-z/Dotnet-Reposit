@@ -1,0 +1,67 @@
+﻿@model List<RestaurantItem>
+
+@{
+    ViewData["Title"] = "Restaurant Items";
+    Layout = "_Layout";
+}
+
+<h2>Restaurant Items</h2>
+
+<a asp-controller="Home" asp-action="Create" class="btn btn-primary mb-3">Add Item</a>
+
+@if (Model != null && Model.Count > 0)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Item Name</th>
+                <th>Item Image</th>
+                <th>Item Category</th>
+                <th>Created By</th>
+                <th>Created Date</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.ItemName</td>
+                    <td>@item.ItemImage</td>
+                    <td>@item.ItemCategory</td>
+                    <td>@item.CreatedBy</td>
+                    <td>@item.CreatedDate</td>
+                    <td>
+                        <a href="/RestaurantItems/Edit/@item.ItemId" class="btn btn-sm btn-primary">Edit</a>
+                        <a href="/RestaurantItems/Details/@item.ItemId" class="btn btn-sm btn-info">Details</a>
+                        <a href="/RestaurantItems/Delete/@item.ItemId" class="btn btn-sm btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No restaurant items found. Please add new items.</p>
+}
+
+
+
+<script>
+    // AJAX DELETE request
+    $("a.btn-danger").click(function () {
+        var deleteUrl = $(this).attr("href");
+        if (confirm("Are you sure you want to delete this item?")) {
+            $.ajax({
+                url: deleteUrl,
+                type: "POST",
+                data: { id: $(this).data("id") },
+                success: function () {
+                    window.location.reload();
+                }
+            });
+        }
+        return false;
+    });
+</script>

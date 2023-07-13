@@ -1,0 +1,73 @@
+﻿@model RestaurantItem
+
+@{
+    ViewData["Title"] = "Add Restaurant Item";
+    Layout = "_Layout";
+}
+
+<h2>Add Restaurant Item</h2>
+
+<form id="createForm" enctype="multipart/form-data">
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <div class="form-group">
+        <label asp-for="ItemName"></label>
+        <input asp-for="ItemName" class="form-control" />
+        <span asp-validation-for="ItemName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ItemCategory"></label>
+        <input asp-for="ItemCategory" class="form-control" />
+        <span asp-validation-for="ItemCategory" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ItemImage">Item Image</label>
+        <input asp-for="ItemImage" type="file" class="form-control-file" accept="image/*" />
+        <span asp-validation-for="ItemImage" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CreatedBy">Created By</label>
+        <input asp-for="CreatedBy" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</form>
+
+
+<script>
+    $(document).ready(function () {
+        $('#createForm').submit(function (e) {
+            e.preventDefault(); // Prevent form submission
+            
+            // Get form data
+             var formData = new FormData($(this)[0]);
+             
+            // Send Ajax request
+            $.ajax({
+                type: 'POST',
+                url: "@Url.Action("CreateItem")",
+                processData: false,
+                contentType: false,
+                data: formData,
+                success: function (result) {
+                    // Handle success response
+                    alert('Restaurant item created successfully.');
+                    window.location.href = '/RestaurantItems/Index';
+                },
+                error: function (xhr, status, error) {
+                    // Handle error response
+                    if (xhr.status === 500) {
+                        alert('An error occurred while creating the restaurant item:\n' + xhr.responseText);
+                    } else {
+                        alert('An error occurred while creating the restaurant item. Please try again.');
+                    }
+                }
+            });
+
+        });
+    });
+</script>
